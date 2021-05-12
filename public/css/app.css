@@ -55,6 +55,27 @@ header img {
   margin: 0 auto;
 }
 
+#products .card {
+  width: calc(100% / 3 - 40px);
+  float: left;
+  text-align: center;
+  background-color: lightgray;
+  margin: 20px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+#products .card img {
+  padding: 30px;
+  width: 100%;
+}
+
+#products::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
 footer {
   width: 80%;
   margin: 0 auto;
