@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+header ul li a {
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+header img {
+  height: 90px;
+}
+
+#home img {
+  width: 100%;
+}
+
+#products {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+

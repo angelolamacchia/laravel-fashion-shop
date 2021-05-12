@@ -1,0 +1,65 @@
+@mixin width80 {
+    width: 80%;
+    margin: 0 auto;
+}
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    @include width80;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    ul {
+        @include flexCenter;
+        li {
+            padding-left: 30px;
+            font-size: 20px;
+            a {
+                background-color: black;
+                padding: 5px 10px;
+                border-radius: 5px;
+                color: white;
+            }
+        }
+    }
+
+    img {
+        height: 90px;
+    }
+}
+
+#home {
+    img {
+        width: 100%;
+    }
+}
+
+#products {
+    @include width80;
+}
+
+footer {
+    @include width80;
+    padding: 20px 0;
+}
